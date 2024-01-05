@@ -6,7 +6,10 @@ wifi:
 
 time:
   - platform: homeassistant
-    timezone: Europe/London
+    timezone: Asia/Hong_Kong
+
+web_server:
+  port: 80
 
 api:
   services:
@@ -201,7 +204,7 @@ sensor:
       inverted: true
     cf_pin: GPIO4
     cf1_pin: GPIO5
-    update_interval: 10s
+    update_interval: 2s
     
     voltage:
       name: "Voltage"
@@ -215,7 +218,7 @@ sensor:
       name: "Power"
       id: power
       unit_of_measurement: W
-      accuracy_decimals: 0
+      accuracy_decimals: 1
       filters:
         - lambda: return x * id(power_multiply);
         
