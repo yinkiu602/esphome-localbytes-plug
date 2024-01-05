@@ -1,0 +1,9 @@
+{
+  "chipFamily": "ESP8266",
+  "parts": [
+    {
+      "path": "localbytes-plug-pm-esp8266/localbytes-plug-pm-esp8266.bin",
+      "offset": 0
+    }
+  ]
+}
