@@ -2,7 +2,6 @@ packages:
     minimal: !include minimal.yaml
 
 wifi:
-  output_power: 18db
   power_save_mode: high
 
 time:
